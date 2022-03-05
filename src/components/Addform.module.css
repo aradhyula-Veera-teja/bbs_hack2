@@ -1,0 +1,63 @@
+.container{
+    background-color: #e6e6e6;
+    border-radius: 30px;
+    padding: 20px ;
+    box-shadow: 3px 3px 12px rgb(53, 52, 52),-3px -3px 6px rgb(255,255,255);
+}
+#fileButtonNone{
+    display: none;
+}
+.buttonBox{
+    display: flex;
+    justify-content: space-around;
+}
+.inputBox{
+    padding: 20px;
+}
+.inputBox>label{
+    color: #f52727;
+    display: block;
+    width: 100%;
+    min-height: 200px;
+    text-align: center;
+    padding:30px 0;
+    font-size: 2em;
+    border: 2px solid grey;
+    border-radius: 20px;
+    text-transform: capitalize;
+    opacity:0.6;
+    transition: 0.5s;
+}
+.inputBox>label:hover{
+    border-color:#f52727 ;
+    opacity: 0.7;
+}
+/* .inputBox label{
+    display: block;
+    position: relative;
+    background: green;
+    height: 100%;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+} */
+input{
+    background-color: transparent;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    text-transform: none;
+    padding: 7px;
+    font-size: 22px;
+    color: #f52727;
+    border-radius: 10px;
+    border: none;
+    transition: 0.5s;
+    outline: none;
+}
+input:hover{
+    border: 2px solid #f52727;
+}
+.teja{
+    background-color: #f52727;
+}

@@ -1,0 +1,25 @@
+.container{
+    background-color: #e6e6e6;
+    padding: 20px 20px ;
+    margin-top: 30px;
+    box-shadow: 3px 3px 12px rgb(53, 52, 52),-3px -3px 6px rgb(255,255,255);
+    border-radius: 25px;
+}
+.imageBox{
+    /* width: 100% auto; */
+    min-height: 300px;
+    /* height: 150px; */
+    background-image: url(./t.jpeg);
+    background-position:center;
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+}
+.textBox{
+    background-color: #e6e6e6;
+    padding: 20PX 30PX;
+}
+.buttonBox{
+    display: flex;
+    justify-content: space-around;
+    background-color: #e6e6e6;
+}

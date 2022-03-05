@@ -1,0 +1,30 @@
+.MenuButton{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    background-color: #e6e6e6;
+    border-radius: 50%;
+    box-shadow: 3px 3px 6px rgb(88, 87, 87),-3px -3px 6px rgb(255,255,255);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: Rotate 2s linear infinite;
+    transition: 0.2s;
+    display: none;
+}
+
+@media screen and (max-width:480px){
+    .MenuButton{
+        display: flex;
+    }    
+}
+@keyframes Rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(359deg);
+    }
+}
